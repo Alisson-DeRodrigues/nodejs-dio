@@ -121,6 +121,6 @@
 <h2>Funcionaliades Futuras</h2>
 <ul>
     <li>cadastrar n playes</li>
-    <li>listar playesr cadastrados</li>
+    <li>listar players cadastrados</li>
     <li>histórico de partidas</li>
 </ul>
