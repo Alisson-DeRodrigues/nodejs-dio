@@ -116,7 +116,7 @@
     <li>criar jogador 1</li>
     <li>criar jogador 2</li>
     <li>sair sem fazer nada</li>
-</lu>
+</ul>
 
 <h2>Funcionaliades Futuras</h2>
 <ul>
