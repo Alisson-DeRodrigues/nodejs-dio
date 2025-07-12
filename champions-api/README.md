@@ -19,7 +19,7 @@ API que realiza operações CRUD sobre uma base de dados local de jogadores e cl
 - `POST /api/clubs` - cadastra um clube
 - `DELETE /api/clubs/:id` - deleta um clube
 
-Utilize um client para testar a API com os outros métodos além do GET. Há um arquivo com as rotas configuradas prontas para uso com o Thunder Client, extensão do VSCode.
+Utilize um client para testar a API com os outros métodos além do GET. Há um arquivo com as rotas configuradas prontas para uso com o [Thunder Client](https://github.com/Alisson-DeRodrigues/nodejs-dio/blob/main/champions-api/docs/Thunder-Collection-Champions-API.json), extensão do VSCode.
 
 ## 🎲 Formato dos dados
 **Jogadores:**
