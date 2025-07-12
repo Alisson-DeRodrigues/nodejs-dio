@@ -1,0 +1,134 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "⚽ Champions",
+    "collectionId": "2a96b6cc-d3f6-49c7-910c-5c2255bbdfbf",
+    "dateExported": "2025-07-12T12:00:47.642Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "569f11fb-54ab-4cb7-9aee-2714bfe99226",
+            "colId": "2a96b6cc-d3f6-49c7-910c-5c2255bbdfbf",
+            "containerId": "",
+            "name": "find-all-players",
+            "url": "http://localhost:3333/api/players",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-07-11T00:27:13.099Z",
+            "modified": "2025-07-11T11:13:55.798Z",
+            "headers": []
+        },
+        {
+            "_id": "146a1ec6-fcf1-4f3b-adde-a4d49b2eca3b",
+            "colId": "2a96b6cc-d3f6-49c7-910c-5c2255bbdfbf",
+            "containerId": "",
+            "name": "find-player-by-id",
+            "url": "http://localhost:3333/api/players/999",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-07-11T12:45:59.827Z",
+            "modified": "2025-07-11T19:32:52.710Z",
+            "headers": []
+        },
+        {
+            "_id": "ca084226-cd27-4459-9e8e-dcd0f460d537",
+            "colId": "2a96b6cc-d3f6-49c7-910c-5c2255bbdfbf",
+            "containerId": "",
+            "name": "create-player",
+            "url": "http://localhost:3333/api/players",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2025-07-11T13:17:17.232Z",
+            "modified": "2025-07-11T19:31:12.047Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"id\": 999,\n    \"name\": \"Lionel Messi\",\n    \"club\": \"Paris Saint-Germain\",\n    \"nationality\": \"Argentina\",\n    \"position\": \"Forward\",\n    \"statistics\": {\n      \"Overall\": 93,\n      \"Pace\": 85,\n      \"Shooting\": 94,\n      \"Passing\": 91,\n      \"Dribbling\": 95,\n      \"Defending\": 38,\n      \"Physical\": 65\n    }\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "da19183f-94ad-4812-b135-6fbead9fdf24",
+            "colId": "2a96b6cc-d3f6-49c7-910c-5c2255bbdfbf",
+            "containerId": "",
+            "name": "delete-player-by-id",
+            "url": "http://localhost:3333/api/players/999",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2025-07-11T19:31:31.697Z",
+            "modified": "2025-07-11T19:33:04.416Z",
+            "headers": []
+        },
+        {
+            "_id": "4036fd15-ae7f-4349-ba2c-13ff0f56ef5a",
+            "colId": "2a96b6cc-d3f6-49c7-910c-5c2255bbdfbf",
+            "containerId": "",
+            "name": "update-player",
+            "url": "http://localhost:3333/api/players/999",
+            "method": "PATCH",
+            "sortNum": 60000,
+            "created": "2025-07-11T20:26:32.654Z",
+            "modified": "2025-07-11T20:29:00.453Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"Overall\": 100,\n    \"Pace\": 100,\n    \"Shooting\": 100,\n    \"Passing\": 100,\n    \"Dribbling\": 100,\n    \"Defending\": 100,\n    \"Physical\": 100\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "bf86993d-2874-4038-8786-deb0d5c90899",
+            "colId": "2a96b6cc-d3f6-49c7-910c-5c2255bbdfbf",
+            "containerId": "",
+            "name": "get-all-clubs",
+            "url": "http://localhost:3333/api/clubs",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2025-07-11T21:54:09.659Z",
+            "modified": "2025-07-11T21:54:39.885Z",
+            "headers": []
+        },
+        {
+            "_id": "1716ddfe-d60d-4781-a2a5-502ccdb0b725",
+            "colId": "2a96b6cc-d3f6-49c7-910c-5c2255bbdfbf",
+            "containerId": "",
+            "name": "get-club-by-id",
+            "url": "http://localhost:3333/api/clubs/37",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2025-07-11T23:20:49.336Z",
+            "modified": "2025-07-12T11:42:39.465Z",
+            "headers": []
+        },
+        {
+            "_id": "7f51795c-4288-47eb-b469-e048b767ac4d",
+            "colId": "2a96b6cc-d3f6-49c7-910c-5c2255bbdfbf",
+            "containerId": "",
+            "name": "create-club",
+            "url": "http://localhost:3333/api/clubs",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2025-07-12T11:18:25.597Z",
+            "modified": "2025-07-12T11:42:26.220Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{ \"id\": 37, \"name\": \"Clube de Teste\" }",
+                "form": []
+            }
+        },
+        {
+            "_id": "fffe70d4-e8ac-4ade-9d01-2550a1ab29ba",
+            "colId": "2a96b6cc-d3f6-49c7-910c-5c2255bbdfbf",
+            "containerId": "",
+            "name": "delete-club-by-id",
+            "url": "http://localhost:3333/api/clubs/37",
+            "method": "DELETE",
+            "sortNum": 100000,
+            "created": "2025-07-12T11:58:58.136Z",
+            "modified": "2025-07-12T11:59:42.998Z",
+            "headers": []
+        }
+    ],
+    "ref": "PT1ulLDj5woDpPyVCE3WkRCIIu3sL38ySLSV676ehO4r2EfNfYzEftylCizpJgxJBW2HbhDDZdVEJKBI398nPQ"
+}
